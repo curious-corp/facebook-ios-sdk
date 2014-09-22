@@ -34,6 +34,7 @@
 #endif
 
 @implementation FBShareDialogParams
+@synthesize description = _description // Build fix for xcode 6
 
 - (void)dealloc
 {
